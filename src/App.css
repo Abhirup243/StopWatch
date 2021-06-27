@@ -2,4 +2,26 @@
   text-align: center;
 }
 
+html{
+  background-image: linear-gradient(to right,#FFA17F,#00223E);
+}
 
+.container{
+  position:relative;
+  top:10rem;
+  border: solid 1px black;
+  width: 600px;
+  height: 220px;
+  left:30%;
+}
+
+
+button{
+  width:100px;
+  height:40px;
+  border:solid 1px black;
+  border-radius:20px;
+  margin:10px;
+  cursor:pointer;
+  background-color:rgba(218, 112, 214, 0.529);
+}

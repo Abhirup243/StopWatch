@@ -36,9 +36,9 @@ const Stopwatch = () => {
     
   };
   return (
-    <div>
+    <div className="container">
       <Title />
-      <div>
+      <div className="timer">
         {hrs < 10 ? "0" + hrs : hrs}:{("0" + Math.floor(mins % 60)).slice(-2)}:
         {("0" + Math.floor(time % 60)).slice(-2)}
       </div>
